@@ -6,14 +6,20 @@ assets for MSU-1 enabled SNES projects.
 
 ## Requirements
 
-You must have gcc (or any other compiler, so long as you set the `CC`
+You must have node, gcc (or any other compiler, so long as you set the `CC`
 environment variable appropriately), and ffmpeg installed and available
 from your PATH.
+
+## Installation
+
+```bash
+npm i -g media2msu
+```
 
 ## Usage
 
 ```bash
-npx media2msu -i my_video.mp4 -o my_video
+media2msu -i my_video.mp4 -o my_video
 ```
 
 `my_video.mp4` will be converted to `my_video-#.msu` and `my_video-#.pcm` (where

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { execSync: exec } = require('child_process');
 const {
   renameSync: rename,

@@ -1,14 +1,24 @@
 {
-  "name": "msu-tools",
-  "version": "1.0.0",
+  "name": "media2msu",
+  "version": "1.0.2",
   "description": "Tools for creating MSU-1 audio/video",
   "bin": {
     "media2msu": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "keybase://private/fordiman/msu-tools"
+    "url": "git@github.com:Fordi/media2msu.git"
   },
   "author": "Bryan Elliott <fordiman@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "README.md",
+    "index.js",
+    "csrc/wav2msu.c",
+    "csrc/msu1conv.c",
+    "bin/empty"
+  ],
+  "engines": {
+    "node": ">=10.21.0"
+  }
 }
