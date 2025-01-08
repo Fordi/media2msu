@@ -2,3 +2,4 @@ node_modules
 *.msu
 *.pcm
 *.mp4
+package-lock.json
